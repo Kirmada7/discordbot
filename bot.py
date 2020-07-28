@@ -10,7 +10,7 @@ client = commands.Bot(command_prefix='/')
 conn = pymysql.connect(user='kirmada@kirmadabot', password='89800932Avi', host='kirmadabot.mysql.database.azure.com',
                        database="botdata")
 cur = conn.cursor()
-
+print("Script offcially runnig")
 
 @client.event
 async def on_ready():

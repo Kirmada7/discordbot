@@ -26,3 +26,4 @@ print(pas[-1])
 conn.commit()
 cur.close()
 conn.close()
+#random

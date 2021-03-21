@@ -7,7 +7,7 @@ import os
 from os import environ
 
 client = commands.Bot(command_prefix='/')
-conn = pymysql.connect(user='kirmada@kirmadabot', password='89800932Avi', host='kirmadabot.mysql.database.azure.com',
+conn = pymysql.connect(user='xxxx', password='xxxx', host='xx',
                        database="botdata")
 cur = conn.cursor()
 
